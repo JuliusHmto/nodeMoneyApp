@@ -5,4 +5,7 @@ module.exports = function(app) {
 
     app.route('/')
         .get(jsonDB.index);
+
+    app.route('/showAllTrx')
+        .get(jsonDB.showAllTrx);
 }
