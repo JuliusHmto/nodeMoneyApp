@@ -8,4 +8,7 @@ module.exports = function(app) {
 
     app.route('/showAllTrx')
         .get(jsonDB.showAllTrx);
+
+    app.route('/showTrx/:id')
+        .get(jsonDB.showTrx);
 }
