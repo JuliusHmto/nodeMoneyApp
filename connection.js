@@ -3,6 +3,7 @@ var mysql = require('mysql');
 //db connection
 const conn = mysql.createConnection({
    host: 'localhost',
+   port: '3307',
    user: 'root',
    password: '',
    database: 'dbmoneyapp'
