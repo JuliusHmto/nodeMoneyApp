@@ -1,0 +1,20 @@
+{
+  "name": "noderestapi",
+  "version": "1.0.0",
+  "description": "money App rest api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0016https://github.com/JuliusHmto/nodeMoneyApp.git"
+  },
+  "keywords": [
+    "rest",
+    "api",
+    "nodejs"
+  ],
+  "author": "Julius",
+  "license": "ISC"
+}
