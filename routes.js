@@ -14,4 +14,7 @@ module.exports = function(app) {
 
     app.route('/addTrx')
         .post(jsonDB.addTrx);
+    
+    app.route('/editTrx')
+        .put(jsonDB.editTrx);
 }
