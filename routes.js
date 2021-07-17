@@ -11,4 +11,7 @@ module.exports = function(app) {
 
     app.route('/showTrx/:id')
         .get(jsonDB.showTrx);
+
+    app.route('/addTrx')
+        .post(jsonDB.addTrx);
 }
